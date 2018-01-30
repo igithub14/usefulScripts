@@ -11,7 +11,7 @@
 # a significant output row. The cut and the sed pipes simplify the output
 # further.
 
-# DO BE DONE: improve the code style, and make more consistent comment sections,
+# TO BE DONE: improve the code style, and make more consistent comment sections,
 # according to best practices. 
 
 if [ "$1" == "" ]; then
