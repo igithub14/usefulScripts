@@ -12,7 +12,7 @@
 # further.
 
 # TO BE DONE: improve the code style, and make more consistent comment sections,
-# according to best practices. 
+# according to the best practices. 
 
 if [ "$1" == "" ]; then
    echo "Usage: ./pingScript.sh [network]"
