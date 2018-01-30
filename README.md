@@ -1,2 +1,2 @@
 # usefulScripts
-Useful scripts for personal use only. Nothing interesting here.
+Useful scripts just for personal use. Nothing interesting here.
