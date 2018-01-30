@@ -6,8 +6,8 @@
 # then he gets an output made of two rows showing how to use it.
 
 # If the user specifies a network IP (first three octets) as a parameter, 
-# then a ping sweep from 1 to 254 starts. The -c switch on ping command 
-# impose to perform a single ping to each host. A grep pipe selects just 
+# then a ping sweep from 1 to 254 starts. The -c switch causes the ping to 
+# perform a single ping to each host. A grep pipe selects just 
 # a significant output row. The cut and the sed pipe simplify further
 # the output.
 
