@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Perform a ping sweep with a clear output. 
+# Perform a ping sweep with a clean output. 
 
 # If the user runs the script without specifying any parameters, 
 # then he gets an output made of two rows showing how to use it.
