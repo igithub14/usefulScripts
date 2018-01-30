@@ -2,11 +2,11 @@
 #
 # Perform a ping sweep with a clear output. 
 
-# If the user runs the script without spefifying any parameters, 
+# If the user runs the script without specifying any parameters, 
 # then he gets an output made of two rows showing how to use it.
 
 # If the user specifies a network IP (first three octets) as a parameter, 
-# then a ping sweep from 1 to 254 starts. The switch -c on ping command 
+# then a ping sweep from 1 to 254 starts. The -c switch on ping command 
 # impose to perform a single ping to each host. A grep pipe selects just 
 # a significant output row. The cut and the sed pipe simplify further
 # the output.
