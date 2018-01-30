@@ -7,9 +7,9 @@
 
 # If the user specifies a network IP (first three octets) as a parameter, 
 # then a ping sweep from 1 to 254 starts. The -c switch causes the ping to 
-# perform a single ping to each host. A grep pipe selects just 
-# a significant output row. The cut and the sed pipe simplify further
-# the output.
+# perform a single ping to each host. A grep pipe extracts just 
+# a significant output row. The cut and the sed pipe simplify the output
+# further.
 
 # DO BE DONE: improve the code style, and make more consistent comment sections,
 # according to best practices. 
