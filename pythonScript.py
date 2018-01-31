@@ -28,7 +28,7 @@ if s.connect_ex((ip, port)):
 else: 
    print "Port", port, "is open"
 
-// An execution sample below, testing Port 80:
+// Below is an example of code execution on port 80:
 // root@kali:~/# ./pythonscript.py
 // Enter the ip: 192.168.100.10
 // Enter the port: 80
