@@ -1,7 +1,7 @@
-// This script connects to a remote port on a system to see if it s listening.
+// This script connects to a remote port on a system to see if it's listening.
 // At the end of the exec, the user gets a message telling him if the port is open or colsed.
 
-// Attention please: take care to chmod the script before trying to run it.
+// Attention: please take care to chmod the script before trying to run it.
 
 // Point to the Python interpreter.
 #!/usr/bin/python
@@ -18,8 +18,8 @@ port = input("Enter the port: ")
 // Creates a network socket and assigns it to variable s.
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-// Invoke the function connect_ex to connect to the remote host.
-// If the connection succeed the function returns the value 0.
+// Invokes the function connect_ex to connect to the remote host.
+// If the connection succeeds the function returns the value 0.
 // The value 0 is evaluated by the if statement as false. 
 // Otherwise, if the returned value is true, or a poitive number,
 // that will mean that the port is closed.
