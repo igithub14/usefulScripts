@@ -2,17 +2,17 @@
 #
 # Thi is a simple IP and Port Scanner for the Bash.
 #
-# Performs 
+# Performs a ping sweep over each Host o a Subnet (1..254). 
 
-#
+# If a Host is on, then the Port TCP 53 (DNS) is checked.
 
-# If the user specifies a network IP (first three octets) as a parameter, 
-# 
+# TO BE DONE: add other interesting Ports (80, 8080, 69, 20, 21, 22...)
 
-# TO BE DONE:
-
-
-
+# ---------------------------- NOTES:----------------------------
+# $? identifies the exit status of the last executed command 
+# "0" stands for tue
+# "1" stands for false
+ 
 network="192.168.1."
 port=53
 for host in {1..254}; do
