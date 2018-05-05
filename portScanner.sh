@@ -18,7 +18,6 @@
 # 
 # With regard to line 29 remember that, when executing a command on a /dev/tcp/$host/$port 
 # pseudo-device file, Bash opens a TCP connection to the associated socket.
-# Reference: "Advanced Bash-Scripting Guide" by Mendel Cooper.
 
 network="192.168.1."
 port=53
