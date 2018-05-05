@@ -22,7 +22,7 @@ done
 
 # --------------------------------------- NOTES:---------------------------------------
 # $? identifies the exit status of the last executed command 
-# "0" stands for tue
+# "0" stands for true
 # "1" stands for false
 # 
 # On line 15 you can see that, if the ping command has no success, 
