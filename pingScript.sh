@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# Thi is a simple IP Scanner for the Bash.
+#
 # Perform a ping sweep with a clean output. 
 
 # If the user runs the script without specifying any parameters, 
