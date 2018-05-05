@@ -1,4 +1,4 @@
-//A simple port Scanning script using Python.
+//A simple Port Scanning script using Python.
 
 // This script connects to a remote port on a system to see if it's listening.
 // At the end of the exec, the user gets a message telling him if the port is open or colsed.
