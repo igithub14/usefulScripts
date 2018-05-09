@@ -10,6 +10,11 @@
 # The file "network" is piped to a grep that filtes the content in search of "open".
 # The result if stored in a file called network1.
 
+# The file is cut at the second field (-f2) defined by the delimiter (-d) semicolon (":").
+# Then a second cut command cuts the file at the first field (-f1) defined by the delimiter (-d) 
+# paren ("("). The result is saved into a file named network2.
+
+
 
 echo "Enter the first IP Address :"
 read firstIP
