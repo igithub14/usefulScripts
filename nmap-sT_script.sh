@@ -11,8 +11,8 @@ read port
 
 nmap -sT $firstIP-$lastIP -p $port -oG network
 
-cat network | grep open > networkopen
+cat network | grep open > network1
 
-cat networkopen | cut -f2 -d ":" | cut -f1 -d "(" > networkvuln
+cat network1 | cut -f2 -d ":" | cut -f1 -d "(" > network2
 
-cat networkvuln
+cat network2
