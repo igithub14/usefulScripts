@@ -25,7 +25,7 @@ read lastIP
 echo "Enter the Port Number you're interested in :"
 read port
 
-nmap -sT $firstIP-$lastIP -p $port -oG network
+nmap -sT $firstIP- $lastIP -p $port -oG network
 
 cat network | grep open > network1
 
