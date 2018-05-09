@@ -14,7 +14,7 @@
 # Then a second cut command cuts the file at the first field (-f1) defined by the delimiter (-d) 
 # paren ("("). The result is saved into a file named network2.
 
-
+# NOTES: TO BE TESTED.
 
 echo "Enter the first IP Address :"
 read firstIP
