@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script performs a Connect Scan (-sT Scan).
-# The user can chose the IP range and the port number he is interested in.
+# The user can choose the IP range and the port number he is interested in.
 #
 # Notes on nmap command:
 # -sT switch triggers a Connect Scan.
